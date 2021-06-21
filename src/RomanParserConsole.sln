@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanParserConsole", "RomanParserConsole\RomanParserConsole.csproj", "{7DCEE70C-40E0-4A2F-8A97-415C2327A9EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanParserCore", "RomainParserCore\RomanParserCore.csproj", "{16C29462-08DF-4ED1-AD4C-EF671351DCB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Interface", "1.Interface", "{0B6B97BA-C1BC-408D-BA85-1CABB9FAABAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Core", "2.Core", "{EE5FC874-5E83-4B79-B48E-88174722C0D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{9C392A06-46DB-485E-A016-7D90AB33DD6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Tests", "4.Tests", "{CC0B98C0-7338-4F7A-8E15-3AA7AA31BAC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanParserTests", "RomanParserTests\RomanParserTests.csproj", "{DC0C641A-E4CD-481F-8802-D80ACC0E64A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DCEE70C-40E0-4A2F-8A97-415C2327A9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCEE70C-40E0-4A2F-8A97-415C2327A9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCEE70C-40E0-4A2F-8A97-415C2327A9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCEE70C-40E0-4A2F-8A97-415C2327A9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C29462-08DF-4ED1-AD4C-EF671351DCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C29462-08DF-4ED1-AD4C-EF671351DCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C29462-08DF-4ED1-AD4C-EF671351DCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C29462-08DF-4ED1-AD4C-EF671351DCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0C641A-E4CD-481F-8802-D80ACC0E64A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0C641A-E4CD-481F-8802-D80ACC0E64A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0C641A-E4CD-481F-8802-D80ACC0E64A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0C641A-E4CD-481F-8802-D80ACC0E64A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DCEE70C-40E0-4A2F-8A97-415C2327A9EE} = {0B6B97BA-C1BC-408D-BA85-1CABB9FAABAA}
+		{16C29462-08DF-4ED1-AD4C-EF671351DCB8} = {EE5FC874-5E83-4B79-B48E-88174722C0D7}
+		{DC0C641A-E4CD-481F-8802-D80ACC0E64A8} = {CC0B98C0-7338-4F7A-8E15-3AA7AA31BAC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {681306D3-1A6C-432A-A9DB-D707AF0FF6B9}
+	EndGlobalSection
+EndGlobal

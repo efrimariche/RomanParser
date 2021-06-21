@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RomanParserConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "MIV"
+    }
+  }
+}
